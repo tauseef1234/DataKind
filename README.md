@@ -12,9 +12,8 @@ Daily bed availability data from the shelter homes is collected using HMIS syste
 As part of the data engineering phase, I needed to scrape through the excel files with varying formats and structure for the past 5 years and extract the important features which will feed as input to the time series model.
 
 Data challenges:
-
-	1. Semi-structured data with logos and some unstructured columns with multiple sub-headers separating data for different categories. The column names split under main and sub-header
-	2. Rows with redundant columns and rows
-	3. Inconsistent file formatting across different years and some inconsistent formats within a single year
-  4. The data started with different row numbers. The column names would be different and in some cases even extra columns (at the end)
+1. Semi-structured data with logos and some unstructured columns with multiple sub-headers separating data for different categories. The column names split under main and sub-header
+2. Rows with redundant columns and rows
+3. Inconsistent file formatting across different years and some inconsistent formats within a single year
+4. The data started with different row numbers. The column names would be different and in some cases even extra columns (at the end)
 
